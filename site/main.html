@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="система управления отелем, модуль бронирования для сайта, управление онлайн продажами, система управления гостинницей">
+    <meta name="description" content="Наладим онлайн-продажи и бизнес-процессы вашего отеля, гостинницы, санатория быстро и просто!">
+    <title>ПростоБронь - автоматизированная система для управления вашим отелем и онлайн-продажами</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/index-style.css">
+    <link rel="stylesheet" href="css/index-media.css">
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+       (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+       m[i].l=1*new Date();
+       for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+       k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+       (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+    
+       ym(93304808, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+       });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/93304808" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</head>
+<body>
+    <form name="form1" action="#">
+    <header class="header" id="header">
+        <div class="container flex header__container">
+            <a href="#hero" class="header__logo">
+                <img src="img/logo.svg" alt="Logo">
+            </a>
+            <nav class="nav header__nav">
+                <ul class="nav__list list-reset flex">
+                    <li class="nav__item"><a href="#about" class="nav__link">О нас</a></li>
+                    <li class="nav__item"><a href="#advantages" class="nav__link">Преимущества</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Продукты</a>
+                        <ul class="nav___menu-list list-reset">
+                            <li class="nav__menu-item"><a href="oteli.html" class="nav__menu-link">Модуль бронирования</a></li>
+                        </ul>
+                        <li class="nav__item"><a href="poddergka.html" class="nav__link">Поддержка</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="btn-reset burger">
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+            </button>
+        </div>
+    </header>
+    <main class="main">
+        <section class="hero main__hero section-offset" id="hero">
+            <div class="container">
+                <div class="hero__content flex">
+                    <h1 class="hero__title"><span class="title">ПростоБронь</span>&nbsp;&mdash;автоматизированная система</h1>
+                    <p class="hero__descr">для управления вашим отелем и&nbsp;онлайн-продажами</p>
+                    <a href="#product" class="hero__btn btn btn-reset">ОСТАВИТЬ ЗАЯВКУ</a>
+                </div>
+            </div>
+        </section>
+        <section class="about main__about section-offset" id="about">
+            <div class="container">
+                <div class="about__content">
+                    <h2 class="about__title section-title">О нас</h2>
+                    <p class="about__descr">ПростоБронь&nbsp;&mdash; автоматизированная система управления бизнес-процессами для гостиничного предприятия и&nbsp;любого другого средства размещения. Она сократит число сотрудников и&nbsp;количество ручного труда, путём автоматизации задач. Благодаря платформе ПростоБронь вы&nbsp;сможете наладить онлайн-продажи и&nbsp;бизнес-процессы, иди в&nbsp;ногу со&nbsp;временем, развиваться и&nbsp;увеличивать доход отеля через интернет.</p>
+                </div>
+            </div>
+        </section>
+        <section class="advantages main__advantages section-offset" id="advantages">
+            <div class="container">
+                <h2 class="advantages__title section-title">
+                    ПростоБронь&nbsp;&mdash; это
+                </h2>
+                <ul class="advantages__list list list-reset flex">
+                    <li class="list__item item">
+                        <svg width="71" height="47" viewBox="0 0 71 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="2.49939" y="1.5" width="66.9985" height="43.6657" rx="8.5" fill="white" stroke="#9A6AD7" stroke-width="3"/>
+                            <line x1="0.997192" y1="10.5553" x2="71" y2="10.5553" stroke="#9A6AD7" stroke-width="3"/>
+                            <line x1="7.99921" y1="19.4996" x2="61.6647" y2="19.4996" stroke="#4078F6" stroke-width="3"/>
+                            <line x1="7.99921" y1="26.4994" x2="35.9986" y2="26.4994" stroke="#4078F6" stroke-width="3"/>
+                            <line x1="7.99921" y1="33.4993" x2="61.6647" y2="33.4993" stroke="#4078F6" stroke-width="3"/>
+                        </svg>
+                        <h3 class="item__title">
+                            Удобный модуль бронирования
+                        </h3>
+                        <p class="item__descr">
+                            размещается на&nbsp;вашем сайте и&nbsp;увеличивает количество прямых бронирований до&nbsp;40%
+                        </p>
+                    </li>
+                    <li class="list__item item">
+                        <svg width="80" height="47" viewBox="0 0 80 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M41.8508 44.2846C40.3717 44.3206 38.9089 43.97 37.6069 43.2674L16.2362 31.7352C10.5317 28.6569 10.2338 20.5825 15.696 17.0922L36.5939 3.73885C37.9013 2.90345 39.4124 2.44182 40.9634 2.40399L68.048 1.74339C72.741 1.62893 76.6383 5.34059 76.7528 10.0336L77.3596 34.916C77.4741 39.609 73.7625 43.5062 69.0694 43.6207L41.8508 44.2846Z" stroke="#9A6AD7" stroke-width="3"/>
+                            <path d="M56.7109 29.9091V28.7585C56.7109 27.8849 56.8956 27.0824 57.2649 26.3509C57.6413 25.6122 58.1847 25.0227 58.8949 24.5824C59.6122 24.1349 60.4858 23.9112 61.5156 23.9112C62.5597 23.9112 63.4368 24.1314 64.147 24.5717C64.8643 25.0121 65.4041 25.6016 65.7663 26.3402C66.1357 27.0717 66.3203 27.8778 66.3203 28.7585V29.9091C66.3203 30.7827 66.1357 31.5888 65.7663 32.3274C65.397 33.0589 64.8537 33.6449 64.1364 34.0852C63.419 34.5327 62.5455 34.7564 61.5156 34.7564C60.4716 34.7564 59.5945 34.5327 58.8842 34.0852C58.174 33.6449 57.6342 33.0589 57.2649 32.3274C56.8956 31.5888 56.7109 30.7827 56.7109 29.9091ZM59.8111 28.7585V29.9091C59.8111 30.4134 59.9318 30.8892 60.1733 31.3366C60.4219 31.7841 60.8693 32.0078 61.5156 32.0078C62.1619 32.0078 62.6023 31.7876 62.8366 31.3473C63.0781 30.907 63.1989 30.4276 63.1989 29.9091V28.7585C63.1989 28.2401 63.0852 27.7571 62.858 27.3097C62.6307 26.8622 62.1832 26.6385 61.5156 26.6385C60.8764 26.6385 60.4325 26.8622 60.1839 27.3097C59.9354 27.7571 59.8111 28.2401 59.8111 28.7585ZM45.5142 17.4233V16.2727C45.5142 15.392 45.7024 14.5859 46.0788 13.8544C46.4553 13.1158 46.9986 12.5263 47.7088 12.0859C48.4261 11.6456 49.2926 11.4254 50.3082 11.4254C51.3594 11.4254 52.2401 11.6456 52.9503 12.0859C53.6605 12.5263 54.2003 13.1158 54.5696 13.8544C54.9389 14.5859 55.1236 15.392 55.1236 16.2727V17.4233C55.1236 18.304 54.9354 19.1101 54.5589 19.8416C54.1896 20.5732 53.6463 21.1591 52.929 21.5994C52.2188 22.0327 51.3452 22.2493 50.3082 22.2493C49.2713 22.2493 48.3942 22.0291 47.6768 21.5888C46.9666 21.1413 46.4268 20.5554 46.0575 19.831C45.6953 19.0994 45.5142 18.2969 45.5142 17.4233ZM48.6357 16.2727V17.4233C48.6357 17.9418 48.7564 18.4212 48.9979 18.8615C49.2464 19.3018 49.6832 19.522 50.3082 19.522C50.9616 19.522 51.4055 19.3018 51.6399 18.8615C51.8814 18.4212 52.0021 17.9418 52.0021 17.4233V16.2727C52.0021 15.7543 51.8885 15.2713 51.6612 14.8239C51.4339 14.3764 50.983 14.1527 50.3082 14.1527C49.6761 14.1527 49.2393 14.38 48.9979 14.8345C48.7564 15.2891 48.6357 15.7685 48.6357 16.2727ZM46.9205 34L61.9205 12.1818H64.7116L49.7116 34H46.9205Z" fill="#FEC47C" fill-opacity="0.9"/>
+                            <circle cx="23" cy="24" r="3" stroke="#9A6AD7" stroke-width="2"/>
+                        </svg>
+                        <h3 class="item__title">
+                            Низкий % комиссии
+                        </h3>
+                        <p class="item__descr">
+                            увеличивает долю прямых продаж с&nbsp;официального сайта и&nbsp;доходы отеля
+                        </p>
+                    </li>
+                    <li class="list__item item">
+                        <svg width="101" height="48" viewBox="0 0 101 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="17.5022" y="1.5" width="66.9985" height="43.6657" rx="8.5" fill="white" stroke="#9A6AD7" stroke-width="3"/>
+                            <line x1="0.99" y1="46.5" x2="100.988" y2="45.8334" stroke="#9A6AD7" stroke-width="3"/>
+                            <line x1="42" y1="29" x2="54" y2="29" stroke="#FEC47C" stroke-opacity="0.9" stroke-width="2"/>
+                            <path d="M45.642 34V12.1818H53.0142C54.7259 12.1818 56.125 12.4908 57.2116 13.1087C58.3054 13.7195 59.1151 14.5469 59.6406 15.5909C60.1662 16.6349 60.429 17.7997 60.429 19.0852C60.429 20.3707 60.1662 21.5391 59.6406 22.5902C59.1222 23.6413 58.3196 24.4794 57.233 25.1044C56.1463 25.7223 54.7543 26.0312 53.0568 26.0312H47.7727V23.6875H52.9716C54.1435 23.6875 55.0845 23.4851 55.7947 23.0803C56.505 22.6754 57.0199 22.1286 57.3395 21.4396C57.6662 20.7436 57.8295 19.9588 57.8295 19.0852C57.8295 18.2116 57.6662 17.4304 57.3395 16.7415C57.0199 16.0526 56.5014 15.5128 55.7841 15.1222C55.0668 14.7244 54.1151 14.5256 52.929 14.5256H48.2841V34H45.642Z" fill="#FEC47C" fill-opacity="0.9"/>
+                        </svg>
+                        <h3 class="item__title">
+                            Дистанционная онлайн-оплата
+                        </h3>
+                        <p class="item__descr">
+                            упрощает процесс приема оплаты за бронь, средства сразу поступят на&nbsp;банковский счет отеля, повышает средний чек
+                        </p>
+                    </li>
+                    <li class="list__item item">
+                        <!-- <svg width="128" height="126" viewBox="0 0 128 126" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M44.5581 44.2523C50.0588 45.9616 55.95 42.6386 57.2206 36.988C58.8447 29.7651 69.1553 29.7651 70.7794 36.988C72.05 42.6386 77.9412 45.9616 83.4419 44.2523C86.9444 43.1639 90.0038 44.789 91.5449 47.3666C93.08 49.9342 93.0188 53.2837 90.321 55.7154C85.9998 59.6106 85.9998 66.3894 90.321 70.2846C93.0188 72.7163 93.08 76.0658 91.5449 78.6334C90.0038 81.211 86.9444 82.8361 83.4419 81.7477C77.9412 80.0384 72.05 83.3614 70.7794 89.012C69.1553 96.2349 58.8447 96.2349 57.2206 89.012C55.95 83.3614 50.0588 80.0384 44.5581 81.7477C41.0556 82.8361 37.9962 81.211 36.4551 78.6334C34.92 76.0658 34.9812 72.7163 37.679 70.2846C42.0002 66.3894 42.0002 59.6106 37.679 55.7154C34.9812 53.2837 34.92 49.9342 36.4551 47.3666C37.9962 44.789 41.0556 43.1639 44.5581 44.2523Z" stroke="#9A6AD7" stroke-width="3"/>
+                            <circle cx="64.5" cy="62.5" r="12" stroke="#9A6AD7" stroke-width="3"/>
+                        </svg> -->
+                        <img src="img/icon2.png" alt="icon2">
+                        <h3 class="item__title">
+                            Система управления отелем
+                        </h3>
+                        <p class="item__descr">
+                            позволяет следить за&nbsp;бронями, контролировать квоту номеров, анализировать статистику в&nbsp;удобном едином интерфейсе
+                        </p>
+                    </li>
+                    <li class="list__item item">
+                        <svg width="60" height="66" viewBox="0 0 60 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="1.5" y="64.5" width="63" height="57" rx="8.5" transform="rotate(-90 1.5 64.5)" fill="white" stroke="#9A6AD7" stroke-width="3"/>
+                            <line x1="10" y1="12.5" x2="49" y2="12.5" stroke="#4078F6" stroke-width="3"/>
+                            <line x1="10" y1="22.5" x2="35" y2="22.5" stroke="#4078F6" stroke-width="3"/>
+                            <line x1="10" y1="33.5" x2="44" y2="33.5" stroke="#4078F6" stroke-width="3"/>
+                            <line x1="10" y1="43.5" x2="35" y2="43.5" stroke="#4078F6" stroke-width="3"/>
+                            <line x1="10" y1="52.5" x2="49" y2="52.5" stroke="#4078F6" stroke-width="3"/>
+                        </svg>
+                        <h3 class="item__title">
+                            Удобные отчёты о работе отеля
+                        </h3>
+                        <p class="item__descr">
+                            помогают анализировать ваш доход, формировать отчёты по&nbsp;броням, видеть полную статистику по&nbsp;отелю
+                        </p>
+                    </li>
+                    <li class="list__item item">
+                        <svg width="62" height="62" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="31" cy="31" r="29.5" stroke="#9A6AD7" stroke-width="3"/>
+                            <line x1="27.5" y1="39" x2="27.5" y2="16" stroke="#4078F6" stroke-width="3"/>
+                            <line x1="26" y1="37.5" x2="49" y2="37.5" stroke="#4078F6" stroke-width="3"/>
+                        </svg>
+                        <h3 class="item__title">
+                            Менеджер продаж 24/7
+                        </h3>
+                        <p class="item__descr">
+                            даёт возможность потенциальному гостю забронировать номер в&nbsp;любое время суток, даже когда рабочий день ваших менеджеров уже закончен
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="product main__product section-offset" id="product">
+            <div class="container">
+                <div class="product__content ">
+                    <div class="product__item flex"> 
+                        <div class="product__pic">
+                            <img src="img/module.jpg" alt="Form">
+                        </div>
+                        <div class="product__text">
+                            <h2 class="product__title section-title">
+                                Модуль бронирования = прямые продажи с&nbsp;сайта
+                            </h2>
+                            <p class="product__descr">
+                                Важная деталь в&nbsp;онлайн-продажах любого средства размещения. Быстро и&nbsp;просто установите модуль на&nbsp;сайт и&nbsp;упрощайте процесс бронирования, увеличивайте количество продаж, продавайте 24/7.
+                            </p>
+                            <p class="product__descr">
+                                Модуль даёт возможность гостю выбрать удобные даты и рассчитать стоимость поездки в зависимости от количества человек, категории номера и дополнительных услуг.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer section-offset">
+        <div class="container flex footer__container">
+            <div class="footer__descr">
+                Автоматизированная система управления бизнес-процессами для гостиничного предприятия и&nbsp;любого другого средства размещения.
+            </div>
+            <nav class="footer__navg navg">
+                <ul class="navg__list list-reset">
+                    <li class="navg__item"><a href="#about" class="navg__link">О нас</a></li>
+                    <li class="navg__item"><a href="#advantages" class="navg__link">Преимущества</a></li>
+                </ul>
+            </nav>
+            <div class="footer__docs docs">
+                <ul class="docs__list list-reset">
+                    <li class="docs__item"><a href="documents/privacy_policy.pdf" class="docs__link">Политика конфиденциальности</a></li>
+                    <li class="docs__item"><a href="documents/user__agreement.pdf" class="docs__link">Пользовательское соглашение о предоставлении прав на ПО</a></li>
+                </ul>
+            </div>
+            <div class="footer__item flex">
+                <a href="#hero" class="footer__logo">
+                    <img src="img/logo_footer.svg" alt="Logo">
+                </a>
+                <div class="footer__social social">
+                    <a href="https://vk.com/vanushkakyn" class="sicial__link">
+                        <img src="img/VK.svg" alt="vk">
+                    </a>
+                    <a href="https://vk.com/vanushkakyn" class="sicial__link">
+                        <img src="img/Telegram.svg" alt="tg">
+                    </a>
+                    <a href="https://vk.com/vanushkakyn" class="sicial__link">
+                        <img src="img/Ok.svg" alt="ok">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</form>
+<script>
+    const userElement = document.querySelector('#FIO');
+    const groupElement = document.querySelector('#group');
+    const logoutElement = document.querySelector('#stop');
+    const class1Elevent = document.querySelector('#clas');
+    const class2Elevent = document.querySelector('#class');
+    const class3Elevent = document.querySelector('#classs');
+    const pElevent = document.querySelector('#p');
+    const ppElevent = document.querySelector('#pp');
+    const pppElevent = document.querySelector('#ppp');
+    const clas1 = document.querySelector('#clas1');
+    const class2 = document.querySelector('#class2');
+    const classs3 = document.querySelector('#classs3');
+    const clas4 = document.querySelector('#clas4');
+    const class5 = document.querySelector('#class5');
+    const classs6 = document.querySelector('#classs6');
+    const clas7 = document.querySelector('#clas7');
+    const class8 = document.querySelector('#class8');
+    const classs9 = document.querySelector('#classs9');
+    const clas10 = document.querySelector('#clas10');
+    const class11 = document.querySelector('#class11');
+    const classs12 = document.querySelector('#classs12');
+    const clas13 = document.querySelector('#clas13');
+    const class14 = document.querySelector('#class14');
+    const classs15 = document.querySelector('#classs15');
+    const user = JSON.parse(localStorage.getItem('main'));
+    if (user){
+        userElement.innerHTML = user.FIO;
+        groupElement.innerHTML = user.group;
+        logoutElement.innerHTML = user.stop;
+        class1Elevent.innerHTML = user.clas;
+        class2Elevent.innerHTML = user.class;
+        class3Elevent.innerHTML = user.classs;
+        pElevent.innerHTML = user.p;
+        ppElevent.innerHTML = user.pp;
+        pppElevent.innerHTML = user.ppp;
+        clas1.innerHTML = user.clas;
+        class2.innerHTML = user.class;
+        classs3.innerHTML = user.classs;
+        clas4.innerHTML = user.clas;
+        class5.innerHTML = user.class;
+        classs6.innerHTML = user.classs;
+        clas7.innerHTML = user.clas;
+        class8.innerHTML = user.class;
+        classs9.innerHTML = user.classs;
+        clas10.innerHTML = user.clas;
+        class11.innerHTML = user.class;
+        classs12.innerHTML = user.classs;
+        clas13.innerHTML = user.clas;
+        class14.innerHTML = user.class;
+        classs15.innerHTML = user.classs;
+    } else {
+        goHome();
+    }
+
+    logoutElement.addEventListener('click', () => {
+        localStorage.removeItem('main');
+        goHome();
+    })
+
+    function goHome(){
+        window.location = 'Untitled-1.html';
+    }
+</script>
+    
+</body>
+</html>

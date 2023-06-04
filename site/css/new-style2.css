@@ -1,0 +1,19 @@
+.header__nav{
+    margin-left: auto;
+    position: absolute;
+    left: 50%;
+    width: auto;
+    float: right;
+}
+
+@media (max-width: 992px){
+    .header__nav{
+        float: none;
+        left: 0;
+    }
+    
+    header nav ul ul {
+        top: 23%;
+    }
+    
+}
